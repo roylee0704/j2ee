@@ -44,7 +44,7 @@ To start domain: (admin authorization is required in Mac)
 $ sudo asadmin start-domain <your-domain-name>
 ```
 
-To stop domain:
+To stop domain: (remember to stop domain before you can configure glassfish at intellij)
 
 ```bash
 $ asdamin stop-domain <your-domain-name>
