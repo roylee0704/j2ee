@@ -32,7 +32,7 @@ Then, `mysql.server` will expose *tcp-port:3306* for `MySql` client to connect.
 
 ### GlassFish
 
-To create new domain:
+To create new domain: (for Mac: authorize read-write permission to everyone in domain/ that just created)
 
 ```bash 
 $ sudo asadmin create-domain --adminport 4848 <your-domain-name>
